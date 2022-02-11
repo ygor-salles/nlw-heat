@@ -84,6 +84,8 @@ yarn dev
 
 - Crie migrações do seu esquema Prisma, aplique-as ao banco de dados, gere artefatos (por exemplo, Prisma Client) `$ yarn prisma migrate dev`
 
+- Rodar as migrations em banco de produção `$ yarn prisma migrate deploy`. Atente que para rodar a migration em um banco local é o comando `$ yarn prisma migrate dev` e em um banco de produção é comando `$ yarn prisma migrate deploy` 
+
 - Puxe o esquema de um banco de dados existente, atualizando o esquema Prisma `$ yarn prisma db pull`
 
 - Envie o estado do esquema Prisma para o banco de dados `$ yarn prisma db push`
