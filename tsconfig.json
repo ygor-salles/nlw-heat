@@ -6,6 +6,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": false,
     "skipLibCheck": true,
+    "outDir": "build",
+    "rootDir": "./",
     // "typeRoots": [
     //   "./src/@types",
     //   "node_modules/@types"
