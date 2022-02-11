@@ -108,5 +108,5 @@ yarn build
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [ ] Migrar para o banco de dados postgreSQL ou MySQL
-- [ ] Configurar para fazer deploy da api
+- [x] Migrar para o banco de dados postgreSQL ou MySQL
+- [x] Configurar para fazer deploy da api
